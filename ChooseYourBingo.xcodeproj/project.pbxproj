@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A085E1224A98392002C4C2C /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A085E1124A98392002C4C2C /* GameController.swift */; };
+		6A085E1524A98C95002C4C2C /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A085E1424A98C95002C4C2C /* CustomExtensions.swift */; };
+		6A1D529A24B26ACE00B5417F /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1D529924B26ACE00B5417F /* AdView.swift */; };
+		6A2E8A5B24A98FC7007D5F53 /* Old.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8A5A24A98FC7007D5F53 /* Old.json */; };
+		6A7BF41824A920F90007EF64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF41724A920F90007EF64 /* HomeView.swift */; };
+		6A7BF41A24A926ED0007EF64 /* MultiplayerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF41924A926ED0007EF64 /* MultiplayerSelectionView.swift */; };
+		6A7BF41C24A928030007EF64 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF41B24A928030007EF64 /* CategoriesModel.swift */; };
+		6A7BF41E24A928350007EF64 /* BingoButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF41D24A928350007EF64 /* BingoButtonModel.swift */; };
+		6AAE0A6124A90CFA0059F696 /* ChooseYourBingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE0A6024A90CFA0059F696 /* ChooseYourBingoApp.swift */; };
+		6AAE0A6324A90CFA0059F696 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE0A6224A90CFA0059F696 /* GameBoardView.swift */; };
+		6AAE0A6524A90CFF0059F696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE0A6424A90CFF0059F696 /* Assets.xcassets */; };
+		6AAE0A6824A90CFF0059F696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE0A6724A90CFF0059F696 /* Preview Assets.xcassets */; };
+		6AAE0A7324A90D000059F696 /* ChooseYourBingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE0A7224A90D000059F696 /* ChooseYourBingoTests.swift */; };
+		6AAE0A7E24A90D000059F696 /* ChooseYourBingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE0A7D24A90D000059F696 /* ChooseYourBingoUITests.swift */; };
+		6AD8D04024A91A0600AFC64F /* BingoInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8D03F24A91A0600AFC64F /* BingoInfo.json */; };
+		6AF67A8824B0C7E2003185B1 /* GameCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF67A8724B0C7E2003185B1 /* GameCenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AAE0A6F24A90D000059F696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAE0A5524A90CFA0059F696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAE0A5C24A90CFA0059F696;
+			remoteInfo = ChooseYourBingo;
+		};
+		6AAE0A7A24A90D000059F696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAE0A5524A90CFA0059F696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAE0A5C24A90CFA0059F696;
+			remoteInfo = ChooseYourBingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A085E1124A98392002C4C2C /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		6A085E1424A98C95002C4C2C /* CustomExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
+		6A1D529924B26ACE00B5417F /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		6A2E8A5A24A98FC7007D5F53 /* Old.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Old.json; sourceTree = "<group>"; };
+		6A7BF41724A920F90007EF64 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6A7BF41924A926ED0007EF64 /* MultiplayerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerSelectionView.swift; sourceTree = "<group>"; };
+		6A7BF41B24A928030007EF64 /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		6A7BF41D24A928350007EF64 /* BingoButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoButtonModel.swift; sourceTree = "<group>"; };
+		6AAE0A5D24A90CFA0059F696 /* ChooseYourBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseYourBingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAE0A6024A90CFA0059F696 /* ChooseYourBingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourBingoApp.swift; sourceTree = "<group>"; };
+		6AAE0A6224A90CFA0059F696 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		6AAE0A6424A90CFF0059F696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AAE0A6724A90CFF0059F696 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AAE0A6924A90CFF0059F696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAE0A6E24A90D000059F696 /* ChooseYourBingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseYourBingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAE0A7224A90D000059F696 /* ChooseYourBingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourBingoTests.swift; sourceTree = "<group>"; };
+		6AAE0A7424A90D000059F696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAE0A7924A90D000059F696 /* ChooseYourBingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseYourBingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAE0A7D24A90D000059F696 /* ChooseYourBingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourBingoUITests.swift; sourceTree = "<group>"; };
+		6AAE0A7F24A90D000059F696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD8D03F24A91A0600AFC64F /* BingoInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BingoInfo.json; path = ../../../../ChooseYourBingo/ChooseYourBingo/BingoInfo.json; sourceTree = "<group>"; };
+		6AF67A8724B0C7E2003185B1 /* GameCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AAE0A5A24A90CFA0059F696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAE0A6B24A90D000059F696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAE0A7624A90D000059F696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A085E1324A98C7E002C4C2C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A085E1424A98C95002C4C2C /* CustomExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6AAE0A5424A90CFA0059F696 = {
+			isa = PBXGroup;
+			children = (
+				6AAE0A5F24A90CFA0059F696 /* ChooseYourBingo */,
+				6AAE0A7124A90D000059F696 /* ChooseYourBingoTests */,
+				6AAE0A7C24A90D000059F696 /* ChooseYourBingoUITests */,
+				6AAE0A5E24A90CFA0059F696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AAE0A5E24A90CFA0059F696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE0A5D24A90CFA0059F696 /* ChooseYourBingo.app */,
+				6AAE0A6E24A90D000059F696 /* ChooseYourBingoTests.xctest */,
+				6AAE0A7924A90D000059F696 /* ChooseYourBingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAE0A5F24A90CFA0059F696 /* ChooseYourBingo */ = {
+			isa = PBXGroup;
+			children = (
+				6A085E1324A98C7E002C4C2C /* Extensions */,
+				6AD8D03C24A919CA00AFC64F /* SupportingFiles */,
+				6AAE0A8D24A90D150059F696 /* Services */,
+				6AAE0A8C24A90D100059F696 /* Models */,
+				6AAE0A8B24A90D0B0059F696 /* Views */,
+				6AAE0A6024A90CFA0059F696 /* ChooseYourBingoApp.swift */,
+				6AAE0A6424A90CFF0059F696 /* Assets.xcassets */,
+				6AAE0A6924A90CFF0059F696 /* Info.plist */,
+				6AAE0A6624A90CFF0059F696 /* Preview Content */,
+			);
+			path = ChooseYourBingo;
+			sourceTree = "<group>";
+		};
+		6AAE0A6624A90CFF0059F696 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE0A6724A90CFF0059F696 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AAE0A7124A90D000059F696 /* ChooseYourBingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE0A7224A90D000059F696 /* ChooseYourBingoTests.swift */,
+				6AAE0A7424A90D000059F696 /* Info.plist */,
+			);
+			path = ChooseYourBingoTests;
+			sourceTree = "<group>";
+		};
+		6AAE0A7C24A90D000059F696 /* ChooseYourBingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE0A7D24A90D000059F696 /* ChooseYourBingoUITests.swift */,
+				6AAE0A7F24A90D000059F696 /* Info.plist */,
+			);
+			path = ChooseYourBingoUITests;
+			sourceTree = "<group>";
+		};
+		6AAE0A8B24A90D0B0059F696 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE0A6224A90CFA0059F696 /* GameBoardView.swift */,
+				6A7BF41724A920F90007EF64 /* HomeView.swift */,
+				6A7BF41924A926ED0007EF64 /* MultiplayerSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AAE0A8C24A90D100059F696 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A7BF41B24A928030007EF64 /* CategoriesModel.swift */,
+				6A7BF41D24A928350007EF64 /* BingoButtonModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AAE0A8D24A90D150059F696 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6A085E1124A98392002C4C2C /* GameController.swift */,
+				6AF67A8724B0C7E2003185B1 /* GameCenter.swift */,
+				6A1D529924B26ACE00B5417F /* AdView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6AD8D03C24A919CA00AFC64F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8D03F24A91A0600AFC64F /* BingoInfo.json */,
+				6A2E8A5A24A98FC7007D5F53 /* Old.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AAE0A5C24A90CFA0059F696 /* ChooseYourBingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAE0A8224A90D000059F696 /* Build configuration list for PBXNativeTarget "ChooseYourBingo" */;
+			buildPhases = (
+				6AAE0A5924A90CFA0059F696 /* Sources */,
+				6AAE0A5A24A90CFA0059F696 /* Frameworks */,
+				6AAE0A5B24A90CFA0059F696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChooseYourBingo;
+			productName = ChooseYourBingo;
+			productReference = 6AAE0A5D24A90CFA0059F696 /* ChooseYourBingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AAE0A6D24A90D000059F696 /* ChooseYourBingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAE0A8524A90D000059F696 /* Build configuration list for PBXNativeTarget "ChooseYourBingoTests" */;
+			buildPhases = (
+				6AAE0A6A24A90D000059F696 /* Sources */,
+				6AAE0A6B24A90D000059F696 /* Frameworks */,
+				6AAE0A6C24A90D000059F696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAE0A7024A90D000059F696 /* PBXTargetDependency */,
+			);
+			name = ChooseYourBingoTests;
+			productName = ChooseYourBingoTests;
+			productReference = 6AAE0A6E24A90D000059F696 /* ChooseYourBingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AAE0A7824A90D000059F696 /* ChooseYourBingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAE0A8824A90D000059F696 /* Build configuration list for PBXNativeTarget "ChooseYourBingoUITests" */;
+			buildPhases = (
+				6AAE0A7524A90D000059F696 /* Sources */,
+				6AAE0A7624A90D000059F696 /* Frameworks */,
+				6AAE0A7724A90D000059F696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAE0A7B24A90D000059F696 /* PBXTargetDependency */,
+			);
+			name = ChooseYourBingoUITests;
+			productName = ChooseYourBingoUITests;
+			productReference = 6AAE0A7924A90D000059F696 /* ChooseYourBingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAE0A5524A90CFA0059F696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6AAE0A5C24A90CFA0059F696 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6AAE0A6D24A90D000059F696 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6AAE0A5C24A90CFA0059F696;
+					};
+					6AAE0A7824A90D000059F696 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6AAE0A5C24A90CFA0059F696;
+					};
+				};
+			};
+			buildConfigurationList = 6AAE0A5824A90CFA0059F696 /* Build configuration list for PBXProject "ChooseYourBingo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AAE0A5424A90CFA0059F696;
+			productRefGroup = 6AAE0A5E24A90CFA0059F696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AAE0A5C24A90CFA0059F696 /* ChooseYourBingo */,
+				6AAE0A6D24A90D000059F696 /* ChooseYourBingoTests */,
+				6AAE0A7824A90D000059F696 /* ChooseYourBingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAE0A5B24A90CFA0059F696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAE0A6824A90CFF0059F696 /* Preview Assets.xcassets in Resources */,
+				6AD8D04024A91A0600AFC64F /* BingoInfo.json in Resources */,
+				6AAE0A6524A90CFF0059F696 /* Assets.xcassets in Resources */,
+				6A2E8A5B24A98FC7007D5F53 /* Old.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAE0A6C24A90D000059F696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAE0A7724A90D000059F696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AAE0A5924A90CFA0059F696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7BF41C24A928030007EF64 /* CategoriesModel.swift in Sources */,
+				6A7BF41E24A928350007EF64 /* BingoButtonModel.swift in Sources */,
+				6A7BF41824A920F90007EF64 /* HomeView.swift in Sources */,
+				6AAE0A6324A90CFA0059F696 /* GameBoardView.swift in Sources */,
+				6A085E1524A98C95002C4C2C /* CustomExtensions.swift in Sources */,
+				6A1D529A24B26ACE00B5417F /* AdView.swift in Sources */,
+				6AF67A8824B0C7E2003185B1 /* GameCenter.swift in Sources */,
+				6A7BF41A24A926ED0007EF64 /* MultiplayerSelectionView.swift in Sources */,
+				6AAE0A6124A90CFA0059F696 /* ChooseYourBingoApp.swift in Sources */,
+				6A085E1224A98392002C4C2C /* GameController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAE0A6A24A90D000059F696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAE0A7324A90D000059F696 /* ChooseYourBingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAE0A7524A90D000059F696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAE0A7E24A90D000059F696 /* ChooseYourBingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AAE0A7024A90D000059F696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AAE0A5C24A90CFA0059F696 /* ChooseYourBingo */;
+			targetProxy = 6AAE0A6F24A90D000059F696 /* PBXContainerItemProxy */;
+		};
+		6AAE0A7B24A90D000059F696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AAE0A5C24A90CFA0059F696 /* ChooseYourBingo */;
+			targetProxy = 6AAE0A7A24A90D000059F696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AAE0A8024A90D000059F696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AAE0A8124A90D000059F696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AAE0A8324A90D000059F696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChooseYourBingo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4L32T76JN9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChooseYourBingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.tally.ChooseYourBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6AAE0A8424A90D000059F696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChooseYourBingo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4L32T76JN9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChooseYourBingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.tally.ChooseYourBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6AAE0A8624A90D000059F696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L32T76JN9;
+				INFOPLIST_FILE = ChooseYourBingoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.tally.ChooseYourBingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChooseYourBingo.app/ChooseYourBingo";
+			};
+			name = Debug;
+		};
+		6AAE0A8724A90D000059F696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L32T76JN9;
+				INFOPLIST_FILE = ChooseYourBingoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.tally.ChooseYourBingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChooseYourBingo.app/ChooseYourBingo";
+			};
+			name = Release;
+		};
+		6AAE0A8924A90D000059F696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L32T76JN9;
+				INFOPLIST_FILE = ChooseYourBingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.tally.ChooseYourBingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChooseYourBingo;
+			};
+			name = Debug;
+		};
+		6AAE0A8A24A90D000059F696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L32T76JN9;
+				INFOPLIST_FILE = ChooseYourBingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.tally.ChooseYourBingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChooseYourBingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AAE0A5824A90CFA0059F696 /* Build configuration list for PBXProject "ChooseYourBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAE0A8024A90D000059F696 /* Debug */,
+				6AAE0A8124A90D000059F696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAE0A8224A90D000059F696 /* Build configuration list for PBXNativeTarget "ChooseYourBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAE0A8324A90D000059F696 /* Debug */,
+				6AAE0A8424A90D000059F696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAE0A8524A90D000059F696 /* Build configuration list for PBXNativeTarget "ChooseYourBingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAE0A8624A90D000059F696 /* Debug */,
+				6AAE0A8724A90D000059F696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAE0A8824A90D000059F696 /* Build configuration list for PBXNativeTarget "ChooseYourBingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAE0A8924A90D000059F696 /* Debug */,
+				6AAE0A8A24A90D000059F696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AAE0A5524A90CFA0059F696 /* Project object */;
+}
